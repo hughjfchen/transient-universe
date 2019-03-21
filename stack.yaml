@@ -1,11 +1,9 @@
-resolver: lts-6.6
+resolver: lts-13.10
 packages:
 - '.'
-- location:
-    git:  https://github.com/transient-haskell/transient.git
-    commit: b15972a71634efe3b85a1480cecc35b50d424e5d
-
-  extra-dep: true
+extra-deps:
+        - github: hughjfchen/transient
+          commit: 4573879587966418c22f5d315b103bf08229bbcd
 extra-package-dbs: []
 flags: {}
 

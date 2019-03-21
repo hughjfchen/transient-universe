@@ -54,8 +54,8 @@ library
             random -any,
             text -any,
             aeson -any,
-            primitive < 0.6.4.0,
-            entropy <= 0.3.6    
+            primitive <= 0.6.4.0,
+            entropy <= 0.4.1.4    
              -- new versions forces the installation of a new cabal version. Tired of that.
 
     exposed-modules:
@@ -107,7 +107,7 @@ executable executor
             transformers -any,
             transient >= 0.6.2,
             transient-universe,
-            process >= 1.6.4.0,
+            process >= 1.6.3.0,
             directory,
             bytestring, 
             aeson,
@@ -131,7 +131,7 @@ executable controlServices
             transformers -any,
             transient >= 0.6.2,
             transient-universe,
-            process >= 1.6.4.0,
+            process >= 1.6.3.0,
             directory,
             bytestring, 
             aeson,
