@@ -52,3 +52,5 @@ _darcs
 darcs*
 /src/style.css
 *.back
+.ghc.environment*
+dist-newstyle

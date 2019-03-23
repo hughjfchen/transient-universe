@@ -16,7 +16,7 @@
 
 {-# LANGUAGE DeriveDataTypeable , ExistentialQuantification, OverloadedStrings,FlexibleInstances, UndecidableInstances
     ,ScopedTypeVariables, StandaloneDeriving, RecordWildCards, FlexibleContexts, CPP
-    ,GeneralizedNewtypeDeriving #-}
+    ,GeneralizedNewtypeDeriving, NoMonadFailDesugaring #-}
 module Transient.Move.Internals where
 
 import Transient.Internals 

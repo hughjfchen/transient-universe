@@ -1,4 +1,4 @@
-{-# LANGUAGE CPP, ScopedTypeVariables #-}
+{-# LANGUAGE CPP, ScopedTypeVariables, NoMonadFailDesugaring #-}
 module Main where
 
 #ifndef ghcjs_HOST_OS

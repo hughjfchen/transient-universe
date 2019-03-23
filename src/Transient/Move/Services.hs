@@ -12,7 +12,7 @@
 -- |
 --
 -----------------------------------------------------------------------------
-{-# LANGUAGE ScopedTypeVariables, CPP, FlexibleInstances, FlexibleContexts, UndecidableInstances, RecordWildCards, MultiParamTypeClasses #-}
+{-# LANGUAGE ScopedTypeVariables, CPP, FlexibleInstances, FlexibleContexts, UndecidableInstances, RecordWildCards, MultiParamTypeClasses, NoMonadFailDesugaring #-}
 
 {-
 TODO:
