@@ -54,3 +54,4 @@ darcs*
 *.back
 .ghc.environment*
 dist-newstyle
+result

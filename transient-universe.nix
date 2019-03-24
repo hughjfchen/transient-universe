@@ -10,6 +10,8 @@ mkDerivation {
   src = ./.;
   isLibrary = true;
   isExecutable = true;
+  doCheck = false;
+  doHaddock = false;
   libraryHaskellDepends = [
     aeson base bytestring case-insensitive containers directory entropy
     filepath hashable HTTP iproute mtl network network-info network-uri
