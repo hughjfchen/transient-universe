@@ -1399,6 +1399,7 @@ listenNew port conn'=  do
 
 
                headers <- getHeaders
+               setState $ HTTPHeaders headers
                maybeSetHost headers
                return () !> ("HEADERS", headers)
                str <-  giveData  <|> error "no api data"
