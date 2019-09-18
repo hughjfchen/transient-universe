@@ -55,7 +55,7 @@ library
             text -any,
             aeson -any,
             primitive <= 0.6.4.0,
-            entropy <= 0.4.1.4    
+            entropy <= 0.4.1.5   
              -- new versions forces the installation of a new cabal version. Tired of that.
 
     exposed-modules:

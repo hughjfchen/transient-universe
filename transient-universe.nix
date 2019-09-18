@@ -10,8 +10,6 @@ mkDerivation {
   src = ./.;
   isLibrary = true;
   isExecutable = true;
-  doCheck = false;
-  doHaddock = false;
   libraryHaskellDepends = [
     aeson base bytestring case-insensitive containers directory entropy
     filepath hashable HTTP iproute mtl network network-info network-uri
@@ -30,6 +28,8 @@ mkDerivation {
     random stm TCache text time transformers transient vector
     websockets
   ];
+  doHaddock = false;
+  doCheck = false;
   homepage = "https://github.com/transient-haskell/transient-universe";
   description = "Remote execution and map-reduce: distributed computing for Transient";
   license = stdenv.lib.licenses.mit;
